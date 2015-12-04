@@ -51,17 +51,11 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -78,13 +72,13 @@
     <Compile Include="Assets\_Scripts\Bat.cs" />
     <Compile Include="Assets\_Scripts\Bird.cs" />
     <Compile Include="Assets\_Scripts\DeathTrigger.cs" />
+    <Compile Include="Assets\_Scripts\EnemyDeath.cs" />
     <Compile Include="Assets\_Scripts\Mover.cs" />
     <Compile Include="Assets\_Scripts\PlatformFall.cs" />
+    <Compile Include="Assets\_Scripts\Shoot.cs" />
+    <Compile Include="Assets\_Scripts\SimpleEnemyController.cs" />
     <Compile Include="Assets\_Scripts\SimplePlatformController.cs" />
     <Compile Include="Assets\_Scripts\SpawnManager.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Models\Human Spaceflight - Shuttle, ISS era\International Space Station High Res (JSC)\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

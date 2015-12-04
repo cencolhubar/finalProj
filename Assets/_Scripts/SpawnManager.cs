@@ -15,11 +15,11 @@ public class SpawnManager : MonoBehaviour {
     public float verticalMin;
     public float verticalMax;
     public GameObject Bird1;
-    public GameObject Bird2;
-    public GameObject Bird3;
-    public GameObject Bird4;
-    public GameObject Bat;
-
+   // public GameObject Bird2;
+   // public GameObject Bird3;
+  //  public GameObject Bird4;
+ //   public GameObject Bat;
+public Transform enemySpawn;
     public Vector3 spawnValues;
     public Vector3 spawnValuesbat;
     public int hazardCount;
@@ -95,22 +95,25 @@ public class SpawnManager : MonoBehaviour {
 
 
                 Vector3 spawnPosition1 = new Vector3(spawnValues.x, Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
-                Vector3 spawnPosition2 = new Vector3(spawnValues.x, Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
-                Vector3 spawnPosition3 = new Vector3(spawnValues.x, Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
-                Vector3 spawnPosition4 = new Vector3(spawnValues.x, Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
+                //Vector3 spawnPosition2 = new Vector3(spawnValues.x, Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
+               // Vector3 spawnPosition3 = new Vector3(spawnValues.x, Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
+               // Vector3 spawnPosition4 = new Vector3(spawnValues.x, Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
 
                 
 //Generates birds on screen
-                Instantiate(Bird1, spawnPosition1, spawnRotation);
-                Instantiate(Bird2, spawnPosition2, spawnRotation);
-                Instantiate(Bird3, spawnPosition3, spawnRotation);
-                Instantiate(Bird4, spawnPosition4, spawnRotation);
+                Instantiate(Bird1, enemySpawn.position, spawnRotation);
+				//Instantiate(Bird1, spawnPosition1, spawnRotation);
+               // Instantiate(Bird2, spawnPosition2, spawnRotation);
+               // Instantiate(Bird3, spawnPosition3, spawnRotation);
+               // Instantiate(Bird4, spawnPosition4, spawnRotation);
 
 				//Randomly generate bats on screen
                 if (Random.Range(1,18) % 3 == 0)
                 {
                     Vector3 spawnPosition5 = new Vector3(spawnValuesbat.x, Random.Range(-spawnValuesbat.y, spawnValuesbat.y), spawnValuesbat.z);
-                    Instantiate(Bat, spawnPosition5, spawnRotation);
+              
+				//Instantiate(Bat, enemySpawn, spawnRotation)
+				//   Instantiate(Bat, spawnPosition5, spawnRotation);
                 }
                 yield return new WaitForSeconds(spawnWait);
             }

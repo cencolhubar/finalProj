@@ -5,7 +5,7 @@ using System.Collections;
 /// This class controls player movement
 /// </summary>
 
-public class SimplePlatformController : MonoBehaviour
+public class SimpleEnemyController : MonoBehaviour
 {
 
     [HideInInspector]
@@ -17,7 +17,6 @@ public class SimplePlatformController : MonoBehaviour
     public float maxSpeed = 5f;
     public float jumpForce = 1000f;
     public Transform groundCheck;
-    public GameObject Camera;
 
     private bool grounded = false;
     //private Animator anim;
@@ -34,7 +33,6 @@ public class SimplePlatformController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CameraFollow();
         //Check if player is on the ground	
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
@@ -117,10 +115,5 @@ public class SimplePlatformController : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
-    }
-
-    void CameraFollow() {
-        Camera.GetComponent<Transform>().position= transform.position;
-
     }
 }

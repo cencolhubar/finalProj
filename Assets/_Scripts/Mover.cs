@@ -17,7 +17,7 @@ public class Mover : MonoBehaviour
     void Update()
     {
         float newPos = Time.deltaTime * scrSpeed;
-        transform.Translate(Vector3.left * newPos);
+        transform.Translate(Vector3.right * newPos);
 
 
 
