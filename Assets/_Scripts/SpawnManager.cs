@@ -10,10 +10,15 @@ public class SpawnManager : MonoBehaviour {
     private bool spawn= true;
     public int maxPlatforms = 100;
     public GameObject platform;
+    public GameObject objplatform;
     public float horizontalMin;
     public float horizontalMax;
     public float verticalMin;
     public float verticalMax;
+    public float objhorizontalMin;
+    public float objhorizontalMax;
+    public float objverticalMin;
+    public float objverticalMax;
     public GameObject Bird1;
    // public GameObject Bird2;
    // public GameObject Bird3;
@@ -58,11 +63,20 @@ public Transform enemySpawn;
         //if(spawn)
         {
             Vector2 randomPosition = originPosition + new Vector2(Random.Range(horizontalMin, horizontalMax), Random.Range(verticalMin, verticalMax));
-            Instantiate(platform, randomPosition, Quaternion.identity);
-        //    Instantiate(Bird1, randomPosition, Quaternion.identity);
-          //  Instantiate(Bird2, randomPosition, Quaternion.identity);
-          //  Instantiate(Bird3, randomPosition, Quaternion.identity);
-         //   Instantiate(Bird4, randomPosition, Quaternion.identity);
+Instantiate(platform, randomPosition, Quaternion.identity);
+            
+            if (Random.Range(1, 18) % 3 == 0)
+            {
+                Vector2 randomPosition2 = originPosition + new Vector2(Random.Range(objhorizontalMin, objhorizontalMax), Random.Range(objverticalMin, objverticalMax));
+                Instantiate(objplatform, randomPosition2, Quaternion.identity);
+            }
+            
+            
+
+            //    Instantiate(Bird1, randomPosition, Quaternion.identity);
+            //  Instantiate(Bird2, randomPosition, Quaternion.identity);
+            //  Instantiate(Bird3, randomPosition, Quaternion.identity);
+            //   Instantiate(Bird4, randomPosition, Quaternion.identity);
             originPosition = randomPosition;
         }
     }

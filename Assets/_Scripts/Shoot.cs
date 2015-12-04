@@ -43,14 +43,6 @@ public class Shoot : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            Acc.Play();
-        }
-        if (Input.GetKeyUp(KeyCode.UpArrow))
-        {
-            Acc.Stop();
-        }
     }
 
 
