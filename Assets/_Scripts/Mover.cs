@@ -16,10 +16,25 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         float newPos = Time.deltaTime * scrSpeed;
         transform.Translate(Vector3.right * newPos);
+        */
+        float h = Input.GetAxis("Horizontal");
 
+        if (h > 0)
+        {
+            
+            float newPos = Time.deltaTime * scrSpeed;
+            transform.Translate(Vector2.right * newPos);
 
+        }
 
+    }
+    void FixedUpdate()
+    {
+        
+  
+        
     }
 }

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyDeath : MonoBehaviour {
+public class Collectible : MonoBehaviour {
     public int scoreValue;
     private SpawnManager gameController;
     public AudioSource sound;
@@ -27,14 +27,14 @@ public class EnemyDeath : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Robot"))
         {
-            Destroy(other.gameObject);
             Destroy(gameObject);
 
-             gameController.AddScore(scoreValue);
 
-            // sound.Play();
+            gameController.AddScore(scoreValue);
+
+            sound.Play();
         }
     }
 }

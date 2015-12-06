@@ -17,7 +17,19 @@ public class BackGroundScrollScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
+        float h = Input.GetAxis("Horizontal");
+
+        if (h > 0 && transform.position.x == 0)
+        {
+            x = Mathf.Repeat(Time.time * speed, 1);
+            GetComponent<Renderer>().sharedMaterial.SetTextureOffset("_MainTex", new Vector2(x, 0));
+
+        }
+        
+        /*
         x = Mathf.Repeat(Time.time * speed, 1);
         GetComponent<Renderer>().sharedMaterial.SetTextureOffset("_MainTex", new Vector2(x, 0));
-	}
+*/
+    }
 }

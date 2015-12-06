@@ -8,7 +8,7 @@ using System.Collections;
 public class DeathTrigger : MonoBehaviour {
     private SpawnManager gameController;
     // Use this for initialization
-    public AudioSource sound;
+    //public AudioSource sound;
     void Start () {
 
 	}
@@ -28,20 +28,22 @@ public class DeathTrigger : MonoBehaviour {
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
 
         
         
-        if (other.gameObject.CompareTag("Player"))
-        { sound.Play();
+        if (other.gameObject.CompareTag("Robot"))
+        { //sound.Play();
+
+            Debug.Log("DeathTrigger");
             gameController.lives--;
             gameController.UpdateLives();
             if (gameController.lives > 0) {
 
                 GameObject player = other.gameObject;
 
-                player.GetComponent<Transform>().position = new Vector3(0,10, 0);
+                player.GetComponent<Transform>().position = new Vector2(0,0);
 
            }
            else if (gameController.lives <= 0)

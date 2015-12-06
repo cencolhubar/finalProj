@@ -11,6 +11,7 @@ public class SpawnManager : MonoBehaviour {
     public int maxPlatforms = 100;
     public GameObject platform;
     public GameObject objplatform;
+    public GameObject collectible;
     public float horizontalMin;
     public float horizontalMax;
     public float verticalMin;
@@ -64,11 +65,14 @@ public Transform enemySpawn;
         {
             Vector2 randomPosition = originPosition + new Vector2(Random.Range(horizontalMin, horizontalMax), Random.Range(verticalMin, verticalMax));
 Instantiate(platform, randomPosition, Quaternion.identity);
-            
+           
+
             if (Random.Range(1, 18) % 3 == 0)
             {
                 Vector2 randomPosition2 = originPosition + new Vector2(Random.Range(objhorizontalMin, objhorizontalMax), Random.Range(objverticalMin, objverticalMax));
+                Vector2 randomPosition3 = randomPosition2 + new Vector2(0,+5);
                 Instantiate(objplatform, randomPosition2, Quaternion.identity);
+                Instantiate(collectible, randomPosition3, Quaternion.identity);
             }
             
             

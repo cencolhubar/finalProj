@@ -45,6 +45,26 @@ public class SimplePlatformController : MonoBehaviour
         {
             jump = true;
         }
+
+        transform.position = new Vector2(
+
+Mathf.Clamp(transform.position.x, -5, 0),
+transform.position.y
+
+
+);
+        /*
+        rb2d.position = new Vector2(
+
+    Mathf.Clamp(rb2d.position.x, -5, 0),
+    rb2d.position.y
+
+
+    );
+        */
+
+
+
     }
 
     void FixedUpdate()
@@ -107,6 +127,8 @@ public class SimplePlatformController : MonoBehaviour
             rb2d.AddForce(new Vector2(0f, jumpForce));
             jump = false;
         }
+
+
 
     }
 

@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 1f435f9ec9ecad54c8c54d6c8eefca76
+timeCreated: 1449364835
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Stars_0
+    21300002: Stars_1
+    21300004: Stars_2
+    21300006: Stars_3
+    21300008: Stars_4
+    21300010: Stars_5
+    21300012: Stars_6
+    21300014: Stars_7
+    21300016: Stars_8
+    21300018: Stars_9
+    21300020: Stars_10
+    21300022: Stars_11
+    21300024: Stars_12
+    21300026: Stars_13
+    21300028: Stars_14
+    21300030: Stars_15
+    21300032: Stars_16
+    21300034: Stars_17
+    21300036: Stars_18
+    21300038: Stars_19
+    21300040: Stars_20
+    21300042: Stars_21
+    21300044: Stars_22
+    21300046: Stars_23
+    21300048: Stars_24
+    21300050: Stars_25
+    21300052: Stars_26
+    21300054: Stars_27
+    21300056: Stars_28
+    21300058: Stars_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Stars_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 165
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 165
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 165
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 165
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 165
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 126
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 126
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 126
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 126
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 126
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 85.1999969
+        width: 41.6666718
+        height: 41.8000031
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 85.1999969
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 85.1999969
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 85.1999969
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 85.1999969
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44.2000008
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 44.2000008
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_21
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 44.2000008
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 44.2000008
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 44.2000008
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 3
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3.20000076
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_27
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3.20000076
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 3.20000076
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stars_29
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3.20000076
+        width: 41.6666679
+        height: 41.7999992
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
