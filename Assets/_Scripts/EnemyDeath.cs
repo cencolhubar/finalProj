@@ -7,6 +7,7 @@ public class EnemyDeath : MonoBehaviour {
     private SpawnManager gameController;
     public AudioSource sound;
 	public GameObject expl;
+    public GameObject collect;
     // Use this for initialization
     void Start () {
         scoreValue = 1;
@@ -34,7 +35,8 @@ public class EnemyDeath : MonoBehaviour {
             Destroy(other.gameObject);
             Destroy(gameObject);
 			Instantiate(expl, other.gameObject.GetComponent<Transform>().position, Quaternion.identity);
-             gameController.AddScore(scoreValue);
+            Instantiate(collect, other.gameObject.GetComponent<Transform>().position, Quaternion.identity);
+            gameController.AddScore(scoreValue);
 
             // sound.Play();
         }

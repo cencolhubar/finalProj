@@ -36,7 +36,7 @@ public Transform enemySpawn;
     public float startWait;
     public float waveWait;
 
-
+    public Text starText;
     public Text scoreText;
     public Text restartText;
     public Text livesText;
@@ -202,7 +202,16 @@ Instantiate(platform, randomPosition, Quaternion.identity);
         {
            lives= 0;
         }
-        livesText.text = "Lives: " + lives;
+        // livesText.text = "Lives: " + lives;
+        livesText.text = lives.ToString();
+    }
+
+        //Set StarCount
+    public void setStarCount(int starCount)
+    {
+            starText.text =starCount.ToString();
+        
+
     }
 
     //Sets game as ended
@@ -212,6 +221,10 @@ Instantiate(platform, randomPosition, Quaternion.identity);
         gameOver = true;
 
     }
+
+
+
+
     public void setLevelComplete()
     
         {

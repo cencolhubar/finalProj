@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Ally : MonoBehaviour {
 
@@ -16,6 +17,8 @@ public class Ally : MonoBehaviour {
     private SpawnManager gameController;
     public AudioSource sound;
     public GameObject expl;
+    public Image starOne;
+    public Image starTwo;
 
     public int scoreValue;
     // Use this for initialization
@@ -78,7 +81,8 @@ public class Ally : MonoBehaviour {
             Destroy(gameObject);
             Instantiate(expl, other.gameObject.GetComponent<Transform>().position, Quaternion.identity);
             gameController.AddScore(scoreValue);
-
+            starOne.enabled = false;
+            starTwo.enabled = false;
             // sound.Play();
         }
         /*

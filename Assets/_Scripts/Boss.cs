@@ -44,7 +44,9 @@ public class Boss : MonoBehaviour {
         // this._transform.position = Vector2.MoveTowards(this._transform.position, target_pos.GetComponent<Transform>().position, this.speed);
 
 
-
+if(this._transform.position.y<-5){
+	gameController.setLevelComplete();
+}
 
         if (!targ_acquired)
         {
