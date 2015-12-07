@@ -3,8 +3,10 @@ using System.Collections;
 
 public class EnemyDeath : MonoBehaviour {
     public int scoreValue;
+	public static int BossLife=10;
     private SpawnManager gameController;
     public AudioSource sound;
+	public GameObject expl;
     // Use this for initialization
     void Start () {
         scoreValue = 1;
@@ -31,8 +33,26 @@ public class EnemyDeath : MonoBehaviour {
         {
             Destroy(other.gameObject);
             Destroy(gameObject);
+			Instantiate(expl, other.gameObject.GetComponent<Transform>().position, Quaternion.identity);
+             gameController.AddScore(scoreValue);
+
+            // sound.Play();
+        }
+		
+		        if (other.gameObject.CompareTag("Boss"))
+        {BossLife--;
+           Debug.Log(BossLife);
+            Destroy(gameObject);
+			
 
              gameController.AddScore(scoreValue);
+if (BossLife <1)
+{
+	
+	 Destroy(other.gameObject);
+	 			Instantiate(expl, other.gameObject.GetComponent<Transform>().position, Quaternion.identity);
+                gameController.setLevelComplete();
+}	
 
             // sound.Play();
         }

@@ -49,6 +49,7 @@ public class DeathTrigger : MonoBehaviour {
            else if (gameController.lives <= 0)
             {
                 gameController.lives = 0;
+				gameController.UpdateLives();
                 gameController.GameOver();
                
 

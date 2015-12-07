@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 8c83a6b6169bf714b8b12da97bcf9e5f
+timeCreated: 1449413362
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: newboss_0
+    21300002: newboss_1
+    21300004: newboss_2
+    21300006: newboss_3
+    21300008: newboss_4
+    21300010: newboss_5
+    21300012: newboss_6
+    21300014: newboss_7
+    21300016: newboss_8
+    21300018: newboss_9
+    21300020: newboss_10
+    21300022: newboss_11
+    21300024: newboss_12
+    21300026: newboss_13
+    21300028: newboss_14
+    21300030: newboss_15
+    21300032: newboss_16
+    21300034: newboss_17
+    21300036: newboss_18
+    21300038: newboss_19
+    21300040: newboss_20
+    21300042: newboss_21
+    21300044: newboss_22
+    21300046: newboss_23
+    21300048: newboss_24
+    21300050: newboss_25
+    21300052: newboss_26
+    21300054: newboss_27
+    21300056: newboss_28
+    21300058: newboss_29
+    21300060: newboss_30
+    21300062: newboss_31
+    21300064: newboss_32
+    21300066: newboss_33
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: newboss_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 346
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 346
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 346
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 346
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 346
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 280
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 276
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 276
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_8
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 276
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 276
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 246
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 246
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 246
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 158
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 158
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 158
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_16
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 158
+        width: 70
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 158
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 132
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 132
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 132
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 132
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 120
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_23
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 126
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 120
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 122
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 126
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 126
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_28
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 126
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_29
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 126
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 40
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 40
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 40
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: newboss_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 12
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

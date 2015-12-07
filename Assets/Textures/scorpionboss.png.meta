@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: 5d1d165df3a8dcf4597f509114fa71ce
+timeCreated: 1449416433
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: scorpionboss_0
+    21300002: scorpionboss_1
+    21300004: scorpionboss_2
+    21300006: scorpionboss_3
+    21300008: scorpionboss_4
+    21300010: scorpionboss_5
+    21300012: scorpionboss_6
+    21300014: scorpionboss_7
+    21300016: scorpionboss_8
+    21300018: scorpionboss_9
+    21300020: scorpionboss_10
+    21300022: scorpionboss_11
+    21300024: scorpionboss_12
+    21300026: scorpionboss_13
+    21300028: scorpionboss_14
+    21300030: scorpionboss_15
+    21300032: scorpionboss_16
+    21300034: scorpionboss_17
+    21300036: scorpionboss_18
+    21300038: scorpionboss_19
+    21300040: scorpionboss_20
+    21300042: scorpionboss_21
+    21300044: scorpionboss_22
+    21300046: scorpionboss_23
+    21300048: scorpionboss_24
+    21300050: scorpionboss_25
+    21300052: scorpionboss_26
+    21300054: scorpionboss_27
+    21300056: scorpionboss_28
+    21300058: scorpionboss_29
+    21300060: scorpionboss_30
+    21300062: scorpionboss_31
+    21300064: scorpionboss_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: scorpionboss_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 600
+        width: 95
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 601
+        width: 111
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 603
+        width: 133
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_3
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 603
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_4
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 603
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 453
+        width: 123
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 464
+        width: 149
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 464
+        width: 149
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_8
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 450
+        width: 136
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_9
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 451
+        width: 110
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 303
+        width: 97
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 407
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 431
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 401
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 303
+        width: 92
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_15
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 303
+        width: 123
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 415
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 396
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 301
+        width: 119
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 402
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 394
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 393
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_22
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 301
+        width: 140
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 385
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 378
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 151
+        width: 134
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 151
+        width: 134
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_27
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 151
+        width: 134
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_28
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 153
+        width: 94
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_29
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 153
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 3
+        width: 127
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scorpionboss_32
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 3
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

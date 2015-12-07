@@ -12,11 +12,12 @@ public class Follow : MonoBehaviour {
     void Start () {
         this._transform = gameObject.GetComponent<Transform>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         this._distanceFromTarget = Vector2.Distance(this._transform.position, this.target.position);
         this._transform.position = Vector2.MoveTowards(this._transform.position, this.target.position, this.speed);
+
         /*
         if (this._distanceFromTarget < 10)
         {
@@ -24,4 +25,5 @@ public class Follow : MonoBehaviour {
         }
         */
     }
+
 }

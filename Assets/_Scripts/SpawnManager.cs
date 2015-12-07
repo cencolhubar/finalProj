@@ -21,6 +21,9 @@ public class SpawnManager : MonoBehaviour {
     public float objverticalMin;
     public float objverticalMax;
     public GameObject Bird1;
+	public GameObject Bossobj;
+    public static bool BossActive = false;
+	//public GameObject Boss;
    // public GameObject Bird2;
    // public GameObject Bird3;
   //  public GameObject Bird4;
@@ -45,12 +48,13 @@ public Transform enemySpawn;
     public int score;
     public int lives=3;
     private bool bird = false;
-
+    private Animator anim;
 
     private Vector2 originPosition;
-
+private Vector2 randomPosition;
     // Use this for initialization
     void Start () {
+        anim = GetComponent<Animator>();
         score = 0;
         originPosition = new Vector2(-15, -5);
         Spawn();
@@ -63,7 +67,7 @@ public Transform enemySpawn;
          for (int i = 0; i < maxPlatforms; i++)
         //if(spawn)
         {
-            Vector2 randomPosition = originPosition + new Vector2(Random.Range(horizontalMin, horizontalMax), Random.Range(verticalMin, verticalMax));
+            randomPosition = originPosition + new Vector2(Random.Range(horizontalMin, horizontalMax), Random.Range(verticalMin, verticalMax));
 Instantiate(platform, randomPosition, Quaternion.identity);
            
 
@@ -82,14 +86,18 @@ Instantiate(platform, randomPosition, Quaternion.identity);
             //  Instantiate(Bird3, randomPosition, Quaternion.identity);
             //   Instantiate(Bird4, randomPosition, Quaternion.identity);
             originPosition = randomPosition;
+			if (i==maxPlatforms-1){
+			Instantiate(Bossobj, randomPosition+ new Vector2(-5,5), Quaternion.identity);
+			}			
         }
+	
     }
 
 
     IEnumerator SpawnWaves()
     {
         yield return new WaitForSeconds(startWait);
-        while (true)
+        while (BossActive == false)
         {
             /*
             if (bird == false)
@@ -168,6 +176,16 @@ Instantiate(platform, randomPosition, Quaternion.identity);
         UpdateScore();
     }
 
+    public void setBossActive()
+    {
+
+        BossActive = true;
+    }
+    public bool getBossActive()
+    {
+
+        return BossActive;
+    }
 
     //Displays the new score to the UI
     void UpdateScore()
@@ -190,10 +208,24 @@ Instantiate(platform, randomPosition, Quaternion.identity);
     //Sets game as ended
     public void GameOver()
     {
-    //    livesText.text = "Game Over!";
+    //    livesText.text = "Game Over! \nPress R to restart";
         gameOver = true;
-        
-    }
 
+    }
+    public void setLevelComplete()
     
+        {
+        restartText.rectTransform.rect.Set(0,290,0,30);
+
+                restartText.text = "LEVEL COMPLETED";
+        // restart = true;
+        for (int i = 0; i < 260; i++)
+        {
+            restartText.rectTransform.rect.Set(0, 290, i, 30);
+            new WaitForSeconds(1);
+        }
+            }
+
+ 
+
 }
