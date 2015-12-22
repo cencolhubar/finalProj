@@ -8,7 +8,7 @@ using System.Collections;
 public class DeathTrigger : MonoBehaviour {
     private SpawnManager gameController;
     // Use this for initialization
-    //public AudioSource sound;
+    public AudioSource sound;
     void Start () {
 
 	}
@@ -34,7 +34,7 @@ public class DeathTrigger : MonoBehaviour {
         
         
         if (other.gameObject.CompareTag("Robot"))
-        { //sound.Play();
+        { sound.Play();
 
             Debug.Log("DeathTrigger");
             gameController.lives--;

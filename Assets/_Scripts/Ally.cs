@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-
+/// <summary>
+/// This class manages the behaviour of the Non Player Ally
+/// </summary>
 public class Ally : MonoBehaviour {
 
 

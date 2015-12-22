@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 /// <summary>
-/// This class controls very simple ai movement for the birds and bats
+/// This class controls very simple ai movement for selected object (Enemies/Platform Etc)
 /// </summary>
 public class Mover : MonoBehaviour
 {

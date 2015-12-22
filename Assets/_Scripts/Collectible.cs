@@ -44,8 +44,11 @@ public class Collectible : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        sound.Play();
         if (other.gameObject.CompareTag("Robot"))
         {
+
+        
             if (gameObject.CompareTag("Star"))
             {
             StarCount++;
@@ -70,7 +73,7 @@ public class Collectible : MonoBehaviour {
 
             gameController.AddScore(scoreValue);
             
-            sound.Play();
+         
 
 
 

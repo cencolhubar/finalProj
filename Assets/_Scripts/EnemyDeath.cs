@@ -32,6 +32,7 @@ public class EnemyDeath : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
+           // sound.Play();
             Destroy(other.gameObject);
             Destroy(gameObject);
 			Instantiate(expl, other.gameObject.GetComponent<Transform>().position, Quaternion.identity);
@@ -51,10 +52,12 @@ public class EnemyDeath : MonoBehaviour {
 if (BossLife <1)
 {
 	
-	 Destroy(other.gameObject);
+	 
 	 			Instantiate(expl, other.gameObject.GetComponent<Transform>().position, Quaternion.identity);
+                sound.Play();
                 gameController.setLevelComplete();
-}	
+                Destroy(other.gameObject);
+            }	
 
             // sound.Play();
         }
